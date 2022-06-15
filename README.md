@@ -18,7 +18,9 @@ To solve insoluble proteins, expressing protein chaperons is a typical solution.
 1. Install dependency packages  
 　  
 `conda install --file requirements.txt`  
+  
 OR  
+  
 Mannually install the python packages in the requirements.txt  
   
 2. Prepare FASTA formatted sequence  
