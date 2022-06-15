@@ -21,7 +21,6 @@ OR
 Mannually install the python packages in the requirements.txt  
   
 2. Prepare FASTA formatted sequence  
-　  
 The file needs a single sequence and title line.  
 Line breaks in sequence is allowed.  
   
