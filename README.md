@@ -33,3 +33,5 @@ Text file contains predicted solubility without chaperone,with TF, KJE, and GroE
   
 ## Author  
 T. Yasuda, R. Morita, Y. Shigeta, R. Harada  
+Center for Computational Sciences, University of Tsukuba  
+takunoriyasuda@gmail.com
