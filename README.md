@@ -28,9 +28,10 @@ Line breaks in sequence is allowed.
   
 3. Run Chapepred!  
   
-  python chapepred.py input.fa  
+python chapepred.py input.fa  
   
 4. Result  
+  
 PNG image contains solubility around each residue and  
 the average solubilities for three chaperones.  
 Text file contains predicted solubility without chaperone,with TF, KJE, and GroEL.  　
