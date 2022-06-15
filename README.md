@@ -8,10 +8,9 @@ T. Yasuda, R. Morita, Y. Shigeta, R. Harada
 
 
 
-
-
-
-
+numpy
+keras
+matplotlib
 
 1. Install dependency packages
 
