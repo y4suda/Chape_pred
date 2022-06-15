@@ -28,7 +28,7 @@ Line breaks in sequence is allowed.
   
 3. Run Chapepred!  
   
-python chapepred.py input.fa  
+  python chapepred.py input.fa  
   
 4. Result  
 PNG image contains solubility around each residue and  
