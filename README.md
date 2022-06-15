@@ -2,7 +2,8 @@
 # Chape_pred
 
 ## Overview
-ChapePred is a program which based on a machine-learning algorithm (DNN) to predict protein solubilities under the three protein chaperones (TF, DnaKJE, and GroEL/ES).![overview](./Image/abstract.png)
+ChapePred is a program which based on a machine-learning algorithm (DNN) to predict protein solubilities under the three protein chaperones (TF, DnaKJE, and GroEL/ES).  
+![overview](./Image/abstract.png)
 
 
 ## Description
