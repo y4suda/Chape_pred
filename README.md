@@ -18,6 +18,8 @@ To solve insoluble proteins, expressing protein chaperons is a typical solution.
 ・matplotlib  
 
 ## Usage  
+0. Create environment 
+ conda create -n chapepred python=3.9
 1. Install dependency packages  
 `conda install --file requirements.txt`  
 OR  
