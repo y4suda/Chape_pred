@@ -12,7 +12,7 @@ ChapePred is a program which based on a machine-learning algorithm (DNN) to pred
 To solve insoluble proteins, expressing protein chaperons is a typical solution. However, protein chaperones have different molecular mechanisms and preferable target proteins in their dissolution processes. Therefore, most researchers specify a suitable protein chaperon for a target by trial and error. To tackle this issue, we have developed a program named ChapePred to predict protein solubilities under various protein chaperones (TF, KJE, and GroEL).
 
 ## Requirement
-・Python 3.x (3.7.8)  
+・Python 3.x (3.9.16)  
 ・tensolflow(2.11.0)  
 ・numpy (1.19.1)　   
 ・keras (2.11.0)  
@@ -23,6 +23,8 @@ To solve insoluble proteins, expressing protein chaperons is a typical solution.
 0. Create environment  
  conda create -n chapepred python=3.9  
 1. Install dependency packages  
+conda install -c conda-forge tensorflow  
+conda install -c anaconda scikit-learn  
 `conda install --file requirements.txt`  
 OR  
 Mannually install the python packages in the requirements.txt  
