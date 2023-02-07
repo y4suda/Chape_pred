@@ -21,11 +21,11 @@ To solve insoluble proteins, expressing protein chaperons is a typical solution.
 
 ## Usage  
 0. Create environment  
- conda create -n chapepred python=3.9  
- conda activate chapepred  
+`conda create -n chapepred python=3.9`  
+`conda activate chapepred`  
 1. Install dependency packages  
-conda install -c conda-forge tensorflow  
-conda install -c conda-forge scikit-learn  
+`conda install -c conda-forge tensorflow`  
+`conda install -c conda-forge scikit-learn`  
 `conda install --file requirements.txt`  
 OR  
 Mannually install the python packages in the requirements.txt  
