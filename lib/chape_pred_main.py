@@ -11,6 +11,7 @@ from matplotlib import gridspec
 os.environ['TF_CPP_MIN_LOG_LEVEL']="2"
 warnings.simplefilter('ignore')
 
+os.environ["QT_QPA_PLATFORM"]="offscreen"
 
 
 #load model
