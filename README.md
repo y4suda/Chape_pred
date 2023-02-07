@@ -13,7 +13,7 @@ To solve insoluble proteins, expressing protein chaperons is a typical solution.
 
 ## Requirement
 ・Python 3.x (3.7.8)  
-・tensolflow(2.11.0)
+・tensolflow(2.11.0)  
 ・numpy (1.19.1)　   
 ・keras (2.11.0)  
 ・matplotlib(3.3.4 < 3.5)    
