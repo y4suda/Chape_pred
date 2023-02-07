@@ -1,7 +1,6 @@
 import sys
 import datetime
 import numpy as np
-from lib import chape_pred_main
 import os 
 
 print()
@@ -10,13 +9,32 @@ print("##            Chapepred             ##")
 print("######################################")
 print("")
 print("T. Yasuda, R. Morita, Y. Shigeta, R. Harada")
+print("Center for Computational Sciences, University of Tsukuba")
 print("")
+
+
+print("")
+print("Loading library and trained parameters.")
+print("")
+
+from lib import chape_pred_main
+
 
 dir = './result_data'
 if not os.path.exists(dir):
     os.makedirs(dir)
 
-job_id=str(datetime.datetime.now()).replace(" ", "-").replace(":", "-")
+#job_id=str(datetime.datetime.now()).replace(" ", "-").replace(":", "-")
+job_id = None
+with open(sys.argv[1]) as f:
+    for line in f:
+        if line.startswith(">"):
+            job_id = line.strip().replace(">", "").replace(" ", "_")
+
+if job_id == None:
+    print("Error: No title in FASTA file")
+    exit(0)
+
 print("Job ID is ", job_id)
 print()
 
@@ -36,7 +54,8 @@ result=np.loadtxt(f"./result_data/{job_id}.txt")
 average=np.average(result, axis=0)
 
 
-print("          [ w/o chap.      TF         KJE          GroE   ]")
+print("")
+print("          [    TF         KJE          GroE   ]")
 print("Average: ", average)
 print("")
 print("")

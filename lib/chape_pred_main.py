@@ -1,5 +1,6 @@
 #import modules
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 import warnings
 from keras.models import load_model
 import matplotlib.pyplot as plt
